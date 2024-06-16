@@ -1,7 +1,8 @@
 ﻿using PageObjLib.Factories;
 using SauceDemo.WebPages;
+using SauceDemo.Tests;
 
-namespace SauceDemo.Tests
+namespace SauceDemo.TestingLogin
 {
     public class LoginTest : BaseTest
     {
