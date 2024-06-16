@@ -1,13 +1,10 @@
-﻿using PageObjLib.Factories;
-using PageObjLib.Pages;
-using OpenQA.Selenium;
-using SeleniumExtras.WaitHelpers;
+﻿using PageObjLib.Pages;
 
 namespace SauceDemo.WebPages
 {
-    internal static class BasePage
+    internal class BasePage
     {
-        private const string _url = "";
-
+        private const string _url = "https://www.saucedemo.com";
+        public static void OpenPage() => Page.GoUrl(_url);
     }
 }
