@@ -1,6 +1,6 @@
 ﻿using PageObjLib.Factories;
-using SauceDemo.WebPages;
 using SauceDemo.Tests;
+using SauceDemo.WebPages;
 
 namespace SauceDemo.TestingLogin
 {

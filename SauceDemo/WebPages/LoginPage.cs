@@ -16,7 +16,7 @@ namespace SauceDemo.WebPages
             {"error", "error_user"},
             {"visual", "visual_user"}
         };
-        
+
         private static IWebElement UserNameInput() => Page.GetElement(By.Id("user-name"));
         private static IWebElement PasswordInput() => Page.GetElement(By.Name("password"));
         private static IWebElement LoginButton() => Page.GetElement(By.XPath("//input[@id='login-button']"));

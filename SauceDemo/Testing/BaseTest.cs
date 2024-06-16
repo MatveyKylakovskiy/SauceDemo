@@ -1,8 +1,6 @@
 ﻿using PageObjLib.Factories;
 using PageObjLib.Pages;
 using SauceDemo.WebPages;
-using Xunit;
-using TheoryAttribute = Xunit.TheoryAttribute;
 
 namespace SauceDemo.Tests
 {
